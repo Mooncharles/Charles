@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body {
+            padding: 10px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 90%;
+            display: inline-block;
+            margin: 0 0 5px 0;
+        }
+
+        input,
+        select {
+            height: 30px;
+        }
+
+        select {
+            resize: none;
+        }
+
+        .formatting {
+            background-color: #dddd;
+            padding: 20px;
+        }
+
+        button {
+            height: 30px;
+            background-color: #2e18a8;
+            color: #ffffff;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formatting">
+        <form action="/HW1.22W2X91MJM.html">
+            <label for="text">First Name</label> <br>
+            <input type="text" placeholder="Your First Name..."> <br>
+            <label for="text">Last Name</label> <br>
+            <input type="text" placeholder="Your Last Name"> <br>
+
+            <label for="text">Country</label> <br>
+            <select id="country" name="country">
+                <option value="American">American</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Italy">Italy</option>
+
+            </select> <br>
+            <label for="subject">Subject</label> <br>
+            <textarea name="subject" id="subject" cols="30" rows="10">Write Something</textarea> <br>
+            <button>Submit </button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
